@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Calculator">
+    <meta name="description" content="Это калькулятор">
+    <title>Calculator</title>
+    <script src="calc.js" defer></script>
+    <link rel="stylesheet" href="calc.css">
+    <link
+    rel="shortcut icon"
+    href="https://i.pinimg.com/originals/f2/2d/71/f22d7162fccb1f0bdc7613a686648707.png"
+  />
+</head>
+<body>
+    <div class='conteiner'>
+        <h1>Калькулятор</h1>
+
+        <div class="inputs">
+            <input type="number" id="input1" placeholder="Введите первое число">
+        </div><br>
+        <div class="inputs">
+            <input type="number" id="input2" placeholder="Введите второе число">
+        </div> <br>  
+        
+        <div>
+            <button class="btngood" id="plus">+</button>
+            <button class="btngood" id="umn">*</button>
+            <button class="btnbad" id="minus">-</button>
+            <button class="btnbad" id="del">/</button>
+        </div><br>
+        <div>
+            <button class="subbtn" id="submit">Вычислить</button>
+        </div>
+    
+        <div>
+            <h3>Результат :</h3>
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+</html>

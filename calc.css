@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+body{
+    font-family: 'Montserrat','sans-serif';
+    font-weight: normal;
+    font-size: 16px;
+    background-color: DimGrey;
+    color: whitesmoke;
+}
+
+.conteiner{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border:2px solid LightPink;
+}
+
+.btngood{
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+    border:2px solid LightPink;
+}
+
+.btnbad{
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+    border:2px solid LightPink;
+}
+
+.subbtn{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border:2px solid LightPink;
+}
+
+#result{
+    background-color: whitesmoke;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 15px;
+    border:2px solid LightPink;
+}
+
+.btnbad:hover{
+    transition: 1s;
+    background-color: tomato;
+}
+.btngood:hover{
+    transition: 1s;
+    background-color: PaleGreen;
+}
+.subbtn:hover{
+    transition: 0.5s;
+    font-size: 22px;
+    width: 225px;
+    height: 45px;
+}
